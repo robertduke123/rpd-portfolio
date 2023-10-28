@@ -377,10 +377,33 @@ article .icon {
     background: rgb(250, 250, 250);
 }
 
+.project-img-continer {
+    height: 250px;
+    display: flex;
+    text-align: initial;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: space-around;
+}
+
 .project-img {
     border-radius: 2rem;
     width: 90%;
     height: 90%;
+    background-size: cover;
+}
+
+#image-one{
+    background-image: url('./assets/gamelist.png');
+}
+
+#image-two {
+    background-image: url('./assets/bugtracker.png');
+}
+
+#image-three {
+    background-image: url('./assets/estore.png');
 }
 
 .project-title {
