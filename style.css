@@ -346,6 +346,12 @@ section {
     flex-direction: column;
 }
 
+.project-containers{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2.5rem;
+}
+
 .article-container {
     display: flex;
     text-align: initial;
@@ -406,6 +412,10 @@ article .icon {
     background-image: url('./assets/estore.png');
 }
 
+#image-four {
+    background-image: url('./assets/calendar.png');
+}
+
 .project-title {
     margin: 1rem;
     color: black;
@@ -423,6 +433,7 @@ article .icon {
     justify-content: center;
     flex-direction: column;
     height: 70vh;
+    margin-top: 300px;
 }
 
 .contact-info-upper-container {
